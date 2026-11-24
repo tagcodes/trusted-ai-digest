@@ -1,0 +1,134 @@
+{
+  "_note": "A person is trusted only once verified_by has 2+ independent proofs. Candidates below are UNVERIFIED drafts for the owner to check.",
+  "official_sources": [
+    {
+      "name": "Anthropic Engineering Blog",
+      "company": "Anthropic",
+      "domains": [
+        "anthropic.com"
+      ],
+      "feeds": [
+        {
+          "type": "anthropic_listing",
+          "url": "https://www.anthropic.com/engineering"
+        }
+      ],
+      "last_verified": null
+    },
+    {
+      "name": "Claude Docs and Help Centre",
+      "company": "Anthropic",
+      "domains": [
+        "docs.anthropic.com",
+        "docs.claude.com",
+        "support.anthropic.com",
+        "support.claude.com",
+        "code.claude.com"
+      ],
+      "feeds": [],
+      "last_verified": null
+    },
+    {
+      "name": "Claude Code changelog",
+      "company": "Anthropic",
+      "domains": [
+        "github.com/anthropics/claude-code"
+      ],
+      "feeds": [
+        {
+          "type": "rss",
+          "url": "https://github.com/anthropics/claude-code/releases.atom"
+        }
+      ],
+      "last_verified": null
+    }
+  ],
+  "people": [
+    {
+      "name": "Boris Cherny",
+      "role": "Creator of Claude Code",
+      "company": "Anthropic",
+      "tier": 1,
+      "aliases": [],
+      "verified_by": [],
+      "feeds": {
+        "rss": [],
+        "youtube_channel_ids": []
+      },
+      "last_verified": null
+    },
+    {
+      "name": "Cat Wu",
+      "role": "Product lead, Claude Code",
+      "company": "Anthropic",
+      "tier": 1,
+      "aliases": [],
+      "verified_by": [],
+      "feeds": {
+        "rss": [],
+        "youtube_channel_ids": []
+      },
+      "last_verified": null
+    },
+    {
+      "name": "Erik Schluntz",
+      "role": "Member of Technical Staff",
+      "company": "Anthropic",
+      "tier": 2,
+      "aliases": [],
+      "verified_by": [],
+      "feeds": {
+        "rss": [],
+        "youtube_channel_ids": []
+      },
+      "last_verified": null
+    },
+    {
+      "name": "Alex Albert",
+      "role": "Claude Relations",
+      "company": "Anthropic",
+      "tier": 2,
+      "aliases": [],
+      "verified_by": [],
+      "feeds": {
+        "rss": [],
+        "youtube_channel_ids": []
+      },
+      "last_verified": null
+    },
+    {
+      "name": "Simon Willison",
+      "role": "Independent developer (not a lab employee)",
+      "company": "Independent",
+      "tier": 3,
+      "aliases": [],
+      "verified_by": [],
+      "feeds": {
+        "rss": [
+          {
+            "type": "rss",
+            "url": "https://simonwillison.net/atom/everything/"
+          }
+        ],
+        "youtube_channel_ids": []
+      },
+      "last_verified": null
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "hosts": [
+        "swyx",
+        "Shawn Wang",
+        "Alessio Fanelli"
+      ],
+      "feeds": [
+        {
+          "type": "rss",
+          "url": "https://www.latent.space/feed"
+        }
+      ]
+    }
+  ]
+}

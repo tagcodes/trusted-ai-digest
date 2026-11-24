@@ -1,0 +1,32 @@
+name: Approve and send
+# Approval step: after reading the draft email, click "Run workflow" here to send it to testers.
+on:
+  workflow_dispatch:
+    inputs:
+      draft:
+        description: "Draft file to send (blank = latest), e.g. drafts/2026-11-30.html"
+        required: false
+permissions:
+  contents: write
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -m digest.main send ${DRAFT:+--draft "$DRAFT"}
+        env:
+          DRAFT: ${{ inputs.draft }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TESTER_EMAILS: ${{ secrets.TESTER_EMAILS }}
+      - name: Record send
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add drafts/sent.json
+          git commit -m "Sent $(date -u +%F)" || echo "nothing to commit"
+          git push

@@ -1,0 +1,456 @@
+{
+  "feed_errors": [],
+  "dropped": [
+    {
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "title": "Token fraud is here and it\u2019s BAD (YouTube)",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "title": "PostgreSQL 19 Released",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "title": "llm-gemini 0.38",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+      "title": "datasette-arrows 0.1a0",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "title": "Quoting Daniel Stenberg",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "title": "The PSF end-of-year fundraiser",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "title": "External sandboxes for coding agents",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "title": "GPT\u20116.2 Astra and GPT\u20116.2 Sol",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "title": "Quoting Go Proverbs",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "title": "llm 0.37.3",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "title": "datasette-maplibre 0.1a0",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "title": "datasette 1.0a43",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "title": "datasette 0.65.6",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "title": "datasette-apps 0.4a0",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "title": "datasette-agent 0.6a0",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "title": "datasette-llm 0.1a11",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "title": "datasette-vega 0.7",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+      "title": "datasette-cluster-map 0.19",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+      "title": "datasette-leaflet 0.3",
+      "reason": "author 'Simon Willison' not in registry"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "title": "v2.1.326",
+      "reason": "extract failed: Groq HTTP 400: b'{\"error\":{\"message\":\"Failed to validate JSON. Please adjust your prompt. See \\'failed_generation\\' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"\"}}\\n'"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Draft support replies with an LLM but have a human review before sending.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Require job candidates to complete a work trial on a real problem before hiring.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Track both agent usage and app usage to ensure the product isn\u2019t becoming a commodity.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Avoid hiring SDRs; let account executives do personal outbound using tooling.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Charge for AI\u2011driven features using usage\u2011based pricing (AI credits) after a free beta period.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Keep support in\u2011house and never let an LLM answer tickets autonomously.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Maintain at least 40% of headcount in engineering, product, design, and data.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Use a headcount spreadsheet by function to monitor hiring ratios and grow slowly.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Expose an agents platform with APIs so customers can build custom integrations.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/linear-scaling/",
+      "title": "Scaling Linear\u2019s GTM to $100M ARR \u2014 Cristina Cordova, COO",
+      "practice": "Launch AI features as free betas, announce upcoming pricing, and start pricing high then lower it.",
+      "reason": "speaker 'Cristina Cordova' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Use Gemini\u202f4\u202fNeon for copy\u2011writing tasks in Claude\u202fCode",
+      "reason": "speaker 'Theo' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Cache identical prompt inputs to benefit from the lower $0.15 per cached token cost",
+      "reason": "podcast tip with no identified speaker"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Instruct the model to avoid executing terminal commands when not needed",
+      "reason": "speaker 'Kimmonismus' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Leverage tool calls while reusing cached inputs to improve efficiency",
+      "reason": "speaker 'Kimmonismus' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Select lower effort levels for routine, low\u2011precision tasks to save cost",
+      "reason": "podcast tip with no identified speaker"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Combine a powerful model for planning (e.g., Astra) with a smaller local model for implementation to cut API costs",
+      "reason": "podcast tip with no identified speaker"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Edit code modules one at a time (gated approach) to reduce token usage",
+      "reason": "speaker 'DAIR research summary' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "practice": "Stream routed experts from SSD for high\u2011throughput inference with large MoE models",
+      "reason": "speaker 'TokenWing\u2019s developer' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "practice": "Monitor cache miss rate and optimize caching to avoid disproportionate spend",
+      "reason": "speaker 'SemiAnalysis' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "practice": "Select or fine\u2011tune a harness specialized for the target model to improve performance",
+      "reason": "podcast tip with no identified speaker"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "practice": "Apply a small adapter (e.g., Pi adapter) to reduce tool calls per task",
+      "reason": "speaker 'Hugging Face' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "practice": "Enable speculative decoding (sliding\u2011window draft) to increase acceptance length and throughput",
+      "reason": "speaker 'vLLM' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "practice": "Use a multi\u2011step coding model (e.g., MAI Code 2) for complex coding pipelines",
+      "reason": "speaker 'Microsoft' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "practice": "Activate the legal search index in Astra Enterprise for law\u2011related coding tasks",
+      "reason": "speaker 'OpenAI' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "practice": "Prefer models with lower per\u2011token pricing (e.g., Astra) to minimize execution cost",
+      "reason": "speaker 'OpenAI' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/cloudflare/",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "practice": "Route requests to System One models instead of full LLMs for faster, millisecond\u2011scale inference.",
+      "reason": "speaker 'Michelle Chen' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/cloudflare/",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "practice": "Use extraction models to pull specific values from unstructured data in a single forward pass.",
+      "reason": "speaker 'Michelle Chen' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/cloudflare/",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "practice": "Prioritize post\u2011training (fine\u2011tuning) of existing models rather than training from scratch to improve efficiency.",
+      "reason": "speaker 'Michelle Chen' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/cloudflare/",
+      "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+      "practice": "Apply System One principles to identify tasks where LLMs are overkill and replace them with smaller, purpose\u2011built models.",
+      "reason": "speaker 'Michelle Chen' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "practice": "Run iPhone Duo in the iOS simulator via Claude Code desktop app to fold/unfold and test UI layouts",
+      "reason": "speaker 'ClaudeDevs' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "practice": "Apply cheap tests, benchmarks, and end\u2011to\u2011end runs to let Claude verify its own generated code",
+      "reason": "speaker 'blog' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/bfl/",
+      "title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "practice": "Ensure temporal consistency when upscaling video frames rather than sharpening each frame independently",
+      "reason": "speaker 'Andreas Blattmann' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/bfl/",
+      "title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "practice": "Prototype model capabilities with a small, labeled dataset and a short training run before committing to large-scale training",
+      "reason": "speaker 'Dustin Podell' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/bfl/",
+      "title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "practice": "Choose model architecture (autoregressive vs diffusion) based on whether you prioritize training cost or inference speed",
+      "reason": "speaker 'Andreas Blattmann' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/bfl/",
+      "title": "Building Visual Intelligence \u2014 Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "practice": "Train models on combined visual, motion, and audio signals to improve understanding of dynamics",
+      "reason": "speaker 'Andreas Blattmann' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "practice": "Use the proactive coordinator and /btw command in Claude Code Projects to manage collaboration",
+      "reason": "speaker '@ClaudeDevs' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "practice": "Use the /fork command in Claude Code Projects to create independent copies of a project",
+      "reason": "speaker '@ClaudeDevs' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "practice": "Apply custom desktop themes via mods in Claude Code",
+      "reason": "speaker '@ClaudeDevs' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "title": "[AINews] The No AI Slop Manifesto",
+      "practice": "Invite waitlisted Pro, Max, Ultra users to Claude Duet for collaborative coding sessions",
+      "reason": "speaker '@ahuja_karan' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Run self\u2011hosted Claude Managed Agents to keep harness, sandboxes, and session history in your own cloud/on\u2011prem and control request routing",
+      "reason": "speaker 'Katelyn Lesse' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Enable agent identity, OpenTelemetry (OTel), kill switches, and evals in Claude Managed Agents",
+      "reason": "speaker 'Katelyn Lesse' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Use Claude Meetings (beta) to have Claude join video calls and build documents/whiteboards in real time",
+      "reason": "podcast tip with no identified speaker"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Use instabox for multi\u2011OS cloud sandboxes with GPUs for testing code",
+      "reason": "speaker 'hanghuang' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Use Expo Simulators to verify mobile changes on cloud simulators before human review",
+      "reason": "podcast tip with no identified speaker"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Use Simular box shared computer for multiple agents to achieve high OSWorld performance",
+      "reason": "podcast tip with no identified speaker"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Apply speculative self\u2011distillation to reduce token usage while maintaining accuracy",
+      "reason": "speaker 'Shayan Talaei' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Organize agent memory as linked notes to improve performance on long\u2011term tasks",
+      "reason": "speaker 'omarsar0' not in registry"
+    },
+    {
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "practice": "Use interaction\u2011as\u2011a\u2011judge feedback to fix broken requirements more effectively",
+      "reason": "speaker 'Arena' not in registry"
+    }
+  ],
+  "practices": 45,
+  "cards": [
+    {
+      "title": "Auto Health Check",
+      "when": "After a code run completes",
+      "mechanism": "skill",
+      "install_prompt": "mkdir -p ~/.claude/skills/environment-health-check && cat > ~/.claude/skills/environment-health-check/SKILL.md <<'EOF'\n---\nname: environment-health-check\ndescription: Use automatically after a code run completes to check for broken agents, skills, commands, output styles, keybinding errors, unavailable sandbox, and ignored permission settings.\n---\nEOF\n\necho \"- After a code run, use the environment-health-check skill.\" >> ~/.claude/CLAUDE.md\n\necho \"Please confirm the files were saved.\"",
+      "name": "Anthropic",
+      "role": "Official page",
+      "company": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "source_title": "v2.1.327"
+    },
+    {
+      "title": "View Scheduled Tasks",
+      "when": "When you want to see background tasks during a session",
+      "mechanism": "skill",
+      "install_prompt": "mkdir -p ~/.claude/skills/view-scheduled-tasks && cat > ~/.claude/skills/view-scheduled-tasks/SKILL.md <<'EOF'\n---\nname: View Scheduled Tasks\ndescription: |\n  Use automatically after starting a session to open /tasks and display scheduled tasks, loop wakeups, the session goal, and conversation forks.\n---\nEOF\n\n# Append a backup trigger line\necho \"- After starting a session, use the View Scheduled Tasks skill.\" >> ~/.claude/CLAUDE.md\n\nPlease confirm the files were saved.",
+      "name": "Anthropic",
+      "role": "Official page",
+      "company": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source_title": "v2.1.329"
+    },
+    {
+      "title": "Add /code-review command",
+      "when": "When you run /code-review <pr number>",
+      "mechanism": "command",
+      "install_prompt": "# Install /code-review command\nCreate the file at `~/.claude/commands/code-review.md` with the following content:\n\n```markdown\n# /code-review\n\n**Description:** Review a GitHub pull request by number.\n\n**Steps:**\n1. Run `gh pr diff $1` to get the diff of the pull request (replace `$1` with the PR number you passed).\n2. Send the diff to Claude for analysis and generate a review summary.\n3. Return the review to the user.\n\n**Usage:** `/code-review <pr-number>`\n```\n\nAfter creating the file, confirm it was saved.",
+      "name": "Anthropic",
+      "role": "Official page",
+      "company": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source_title": "v2.1.329"
+    },
+    {
+      "title": "Auto\u2011Mode Setup Skill",
+      "when": "When configuring auto\u2011mode, run the skill",
+      "mechanism": "skill",
+      "install_prompt": "# Install Auto\u2011Mode Setup skill\n\nCreate the skill file at `~/.claude/skills/auto-mode-setup/SKILL.md` with the following content:\n\n```yaml\n---\nname: Auto Mode Setup\ndescription: |\n  Use automatically after opening a project folder to scan for auto\u2011mode rule suggestions.\n---\n```\n\nThen append the following line to `~/.claude/CLAUDE.md`:\n\n- After opening a project folder, use the Auto Mode Setup skill.\n\nPlease confirm that both files have been saved.",
+      "name": "Anthropic",
+      "role": "Official page",
+      "company": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source_title": "v2.1.329"
+    },
+    {
+      "title": "Auto UI Config Skill",
+      "when": "When you run a /config command to adjust UI elements during a session.",
+      "mechanism": "skill",
+      "install_prompt": "mkdir -p ~/.claude/skills/ui-config-adjust\\ncat > ~/.claude/skills/ui-config-adjust/SKILL.md <<'EOF'\\n---\\nname: UI Config Adjust\\ndescription: |\\n  Use automatically when you run a /config command to adjust UI elements like auto\u2011scroll, PR status badge, auto\u2011compact warning, or Ultracode tag during a session.\\nEOF\\nmkdir -p ~/.claude\\necho \"- After you run a /config command to adjust UI elements, use the UI Config Adjust skill.\" >> ~/.claude/CLAUDE.md\\necho \"Skill file and trigger added. Did the files save correctly?\"",
+      "name": "Anthropic",
+      "role": "Official page",
+      "company": "Anthropic",
+      "source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source_title": "v2.1.329"
+    }
+  ]
+}

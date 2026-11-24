@@ -1,0 +1,25 @@
+# DECISIONS.md
+
+- 2026-11-20 — Python: best RSS/transcript/Groq libraries; pytest for trust tests.
+- 2026-11-20 — Storage as JSON/HTML files in repo: simplest, free, auditable.
+- 2026-11-20 — Approval via manual GitHub Actions "send" workflow: free, no server needed.
+- 2026-11-20 — Claude drafts first 5 registry entries, owner verifies two proofs each: keeps trust rules human-checked.
+- 2026-11-20 — No domain yet: tester sending blocked on Resend; decide domain vs Gmail SMTP before slice 5.
+- 2026-11-20 — Trust filter requires 2+ proofs in verified_by and tier 1–2; unverified registry entries are treated as untrusted.
+- 2026-11-20 — Podcast host is always dropped, even if they're in the registry (rule 4).
+- 2026-11-20 — Official domains matched exactly or as true subdomain/path prefix to block lookalike URLs.
+- 2026-11-20 — anthropic.com has no RSS; parse the /engineering listing's embedded JSON (href/title/date). Zero parsed entries is logged as a feed error so layout changes are noticed.
+- 2026-11-20 — Claude Code changelog via GitHub releases Atom feed.
+- 2026-11-20 — Undated items skipped: can't prove they're from the last 7 days.
+- 2026-11-20 — Podcasts carry a hosts list; episodes drop at collect time (no speaker) until slice 3 extracts per-tip speakers and re-checks each tip.
+- 2026-11-20 — Groq model openai/gpt-oss-120b: production, free tier (30 RPM, 8K TPM, 200K TPD), supports strict json_schema. Inputs capped at 12K chars and calls spaced 35s apart to stay under 8K TPM.
+- 2026-11-20 — Podcast episodes skip the item filter; every extracted tip is trust-checked by its LLM-identified speaker (host or UNKNOWN → dropped).
+- 2026-11-20 — Card byline (name/role/company) comes from registry, never from the LLM.
+- 2026-11-20 — Install prompts are validated in code (skill path, "Use automatically when/after" trigger, CLAUDE.md backup line); failures retry once then drop.
+- 2026-11-20 — Email HTML uses inline styles and <pre> boxes so it works in mobile mail clients.
+- 2026-11-20 — Email via Gmail SMTP (app password) instead of Resend for the first 3 test weeks: free, no domain needed, Resend test sender only reaches the owner. Revisit (domain + Resend) after week 3. Secrets: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, TESTER_EMAILS.
+- 2026-11-24 — Card byline drops repeated parts ("Anthropic, Official page" not "Anthropic, Official page, Anthropic").
+- 2026-11-24 — YouTube: uploads playlist derived from channel ID (UC->UU), playlistItems only, 1 unit/channel; quota logged. Transcripts via youtube-transcript-api, best effort; falls back to description (YouTube often blocks cloud IPs).
+- 2026-11-24 — Testers receive the digest by BCC so they don't see each other's addresses; drafts/sent.json blocks double-sends.
+- 2026-11-24 — Approval = manual "Approve and send" workflow; weekly workflow commits drafts/ and logs/ for an audit trail.
+- 2026-11-24 — Workflow inputs passed via env, not interpolated into shell, to avoid script injection.
