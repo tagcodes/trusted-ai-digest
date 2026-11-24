@@ -1,0 +1,120 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trusted AI Digest 2026-11-24</title></head>
+<body style="margin:0;padding:0;background:#ffffff">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:620px;margin:0 auto;padding:20px 16px;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<tr><td style="padding:0 0 20px 0">
+  <h1 style="margin:0;font-size:22px;color:#111">Trusted AI Digest</h1>
+  <p style="margin:4px 0 0 0;font-size:14px;color:#666">Week of 2026-11-24 · 5 paste-once upgrades for Claude Code</p>
+</td></tr>
+
+<tr><td style="padding:0 0 28px 0">
+  <h2 style="margin:0 0 6px 0;font-size:19px;line-height:1.3;color:#111">Accurate PR Code Review</h2>
+  <p style="margin:0 0 6px 0;font-size:15px;color:#111"><b>Anthropic, Official page</b></p>
+  <p style="margin:0 0 12px 0;font-size:15px;color:#444">When: When reviewing a GitHub pull request</p>
+  <p style="margin:0 0 6px 0;font-size:14px;color:#111">Paste once. Claude will do this automatically from now on:</p>
+  <pre style="margin:0 0 10px 0;padding:12px;background:#f4f4f2;border:1px solid #ddd;border-radius:6px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word;color:#111">Please create the file `~/.claude/commands/code-review.md` with the following exact content:
+
+```markdown
+# /code-review
+
+**Description:** Review a GitHub pull request accurately using `gh pr diff`.
+
+**Steps:**
+1. Run `gh pr diff &lt;pr-number&gt;` to obtain the diff of the specified pull request.
+2. If `gh pr diff` fails, reply with &quot;Unable to retrieve diff for PR &lt;pr-number&gt;.&quot;
+3. Feed the diff to Claude and return a concise review summary.
+
+**Usage:** `/code-review &lt;pr-number&gt;`
+```
+
+After writing the file, please confirm that `~/.claude/commands/code-review.md` was saved successfully.</pre>
+  <p style="margin:0;font-size:13px"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.329" style="color:#1a56db">Source: v2.1.329</a></p>
+</td></tr>
+<tr><td style="padding:0 0 28px 0">
+  <h2 style="margin:0 0 6px 0;font-size:19px;line-height:1.3;color:#111">View Session Tasks</h2>
+  <p style="margin:0 0 6px 0;font-size:15px;color:#111"><b>Anthropic, Official page</b></p>
+  <p style="margin:0 0 12px 0;font-size:15px;color:#444">When: After you run a code cell</p>
+  <p style="margin:0 0 6px 0;font-size:14px;color:#111">Paste once. Claude will do this automatically from now on:</p>
+  <pre style="margin:0 0 10px 0;padding:12px;background:#f4f4f2;border:1px solid #ddd;border-radius:6px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word;color:#111"># Install the &quot;view-session-tasks&quot; skill
+mkdir -p ~/.claude/skills/view-session-tasks
+cat &gt; ~/.claude/skills/view-session-tasks/SKILL.md &lt;&lt;&#x27;EOF&#x27;
+---
+name: view-session-tasks
+description: Use automatically after you run a code cell to view the session&#x27;s scheduled tasks, loop wakeups, goal, and forks.
+---
+Run the built‑in `/tasks` command to display the session&#x27;s scheduled tasks, loop wakeups, goal, and forks.
+EOF
+
+echo &quot;- After you run a code cell, use the view-session-tasks skill.&quot; &gt;&gt; ~/.claude/CLAUDE.md
+
+echo &quot;✅ Skill installed. Please confirm the files were saved.&quot;</pre>
+  <p style="margin:0;font-size:13px"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.329" style="color:#1a56db">Source: v2.1.329</a></p>
+</td></tr>
+<tr><td style="padding:0 0 28px 0">
+  <h2 style="margin:0 0 6px 0;font-size:19px;line-height:1.3;color:#111">Auto Enable Code Mode with OTEL</h2>
+  <p style="margin:0 0 6px 0;font-size:15px;color:#111"><b>Anthropic, Official page</b></p>
+  <p style="margin:0 0 12px 0;font-size:15px;color:#444">When: When OpenTelemetry events and metrics are enabled</p>
+  <p style="margin:0 0 6px 0;font-size:14px;color:#111">Paste once. Claude will do this automatically from now on:</p>
+  <pre style="margin:0 0 10px 0;padding:12px;background:#f4f4f2;border:1px solid #ddd;border-radius:6px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word;color:#111"># Create the skill directory
+mkdir -p ~/.claude/skills/enable-code-mode-with-otel
+
+# Write the skill definition
+cat &gt; ~/.claude/skills/enable-code-mode-with-otel/SKILL.md &lt;&lt;&#x27;EOF&#x27;
+---
+name: Enable Code Mode with OTEL
+description: |
+  Use automatically when OpenTelemetry events and metrics are enabled to turn on Code Mode for detailed tracing of tool calls.
+---
+EOF
+
+# Append backup trigger to CLAUDE.md
+echo &quot;- After OpenTelemetry events and metrics are enabled, use the Enable Code Mode with OTEL skill.&quot; &gt;&gt; ~/.claude/CLAUDE.md
+
+# Confirm the files were saved
+echo &quot;Skill and trigger saved. Please confirm the files exist at the specified locations.&quot;</pre>
+  <p style="margin:0;font-size:13px"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.329" style="color:#1a56db">Source: v2.1.329</a></p>
+</td></tr>
+<tr><td style="padding:0 0 28px 0">
+  <h2 style="margin:0 0 6px 0;font-size:19px;line-height:1.3;color:#111">Retain Session Hook Variables</h2>
+  <p style="margin:0 0 6px 0;font-size:15px;color:#111"><b>Anthropic, Official page</b></p>
+  <p style="margin:0 0 12px 0;font-size:15px;color:#444">When: After a SessionStart hook runs</p>
+  <p style="margin:0 0 6px 0;font-size:14px;color:#111">Paste once. Claude will do this automatically from now on:</p>
+  <pre style="margin:0 0 10px 0;padding:12px;background:#f4f4f2;border:1px solid #ddd;border-radius:6px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word;color:#111">mkdir -p ~/.claude/skills/retain-session-vars &amp;&amp;
+cat &gt; ~/.claude/skills/retain-session-vars/SKILL.md &lt;&lt;&#x27;EOF&#x27;
+---
+name: Retain Session Variables
+description: Use automatically after a SessionStart hook runs to retain environment variables across continued sessions.
+---
+Run `claude -p --continue` to retain environment variables written by SessionStart hooks.
+EOF
+
+cat &gt;&gt; ~/.claude/CLAUDE.md &lt;&lt;&#x27;EOF&#x27;
+- After a SessionStart hook runs, use the Retain Session Variables skill.
+EOF
+
+Please confirm the files were saved.</pre>
+  <p style="margin:0;font-size:13px"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.330" style="color:#1a56db">Source: v2.1.330</a></p>
+</td></tr>
+<tr><td style="padding:0 0 28px 0">
+  <h2 style="margin:0 0 6px 0;font-size:19px;line-height:1.3;color:#111">Check OpenTelemetry Exporter Endpoints</h2>
+  <p style="margin:0 0 6px 0;font-size:15px;color:#111"><b>Anthropic, Official page</b></p>
+  <p style="margin:0 0 12px 0;font-size:15px;color:#444">When: When monitoring telemetry configuration</p>
+  <p style="margin:0 0 6px 0;font-size:14px;color:#111">Paste once. Claude will do this automatically from now on:</p>
+  <pre style="margin:0 0 10px 0;padding:12px;background:#f4f4f2;border:1px solid #ddd;border-radius:6px;font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word;color:#111">Create the skill file at ~/.claude/skills/otel-exporter-endpoint-check/SKILL.md with the following content:
+```
+---
+name: otel-exporter-endpoint-check
+description: |
+  Use automatically after you run /status to check for OpenTelemetry exporter endpoint notices and prevent data loss.
+---
+```
+Then append a backup trigger line to your personal ~/.claude/CLAUDE.md:
+```
+- After you run /status, use the otel-exporter-endpoint-check skill.
+```
+Please confirm that both files have been saved.</pre>
+  <p style="margin:0;font-size:13px"><a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.328" style="color:#1a56db">Source: v2.1.328</a></p>
+</td></tr>
+<tr><td style="padding:12px 0 0 0;font-size:12px;color:#888;border-top:1px solid #eee">Every tip comes from a verified person at an AI lab or an official company page.</td></tr>
+</table></body></html>
