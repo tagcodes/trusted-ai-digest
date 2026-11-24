@@ -6,6 +6,9 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+concurrency:
+  group: digest-repo-writes
+  cancel-in-progress: false
 jobs:
   draft:
     runs-on: ubuntu-latest
@@ -29,4 +32,5 @@ jobs:
           git config user.email "digest-bot@users.noreply.github.com"
           git add drafts logs
           git commit -m "Draft $(date -u +%F)" || echo "nothing to commit"
+          git pull --rebase
           git push
